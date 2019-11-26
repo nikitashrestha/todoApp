@@ -1,0 +1,99 @@
+.add-form{
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.add-form::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.add-form input[type = text]{
+  border-radius: 5px;
+  border: 2px solid;
+  width: 100%;
+  margin: 10px auto;
+  padding: 2px;
+}
+
+.add-form input[type = submit]{
+  border-radius: 5px;
+  float: right;
+  padding: 5px 20px;
+  cursor: pointer;
+  display: block;
+  background: #3b5998;
+  border: none;
+  color: #ffffff;
+}
+
+.todoList h1{
+  background-color: #3b5998;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+.todoList ul{
+  list-style: none;
+  height: 70vh;
+  overflow-y: scroll;
+  /* float: left; */
+}
+
+.todoList ul li{
+  padding: 10px 2px;
+  display: block;
+  margin: 10px auto;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #3b5998;
+}
+
+.todoList ul li h1{
+  font-size: 18px;
+}
+
+.todoList ul li p{
+  font-size: 15px;
+}
+
+
+.todoList button{
+  margin: 0 5px;
+  border-radius: 5px;
+  background: gray;
+  cursor: pointer;
+  padding: 5px 20px;
+  border: none;
+}
+
+.todoList button:hover{
+  background-color: #3b5998;
+  color: #ffffff;
+}
+
+
+.add-form input[type = submit]:hover{
+  color: #ffffff;
+}
+
+.checkbox input{
+  cursor: pointer;
+}
+
+
+
+
+.editable-content{
+  border: 2px solid gray;
+  border-radius: 5px;
+} 
+
+.strike-through{
+  text-decoration: line-through;
+}
